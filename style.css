@@ -1,0 +1,166 @@
+
+
+
+
+.h1, h1 {
+	font-family: 'Lato', sans-serif;
+}
+.h6, h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+hr.titleOne {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 200px;
+}
+
+
+.textLine {
+	 
+	 margin-bottom:50px;
+	 margin-top: 120px;
+}
+
+.topMarginImg {
+	
+	margin-top:30px;
+}
+
+.buttonWandH {
+	
+	width: 182px;
+	height: 42px;
+	margin-bottom:80px;
+}
+
+.inpWidth {
+	
+	width: 299px;
+	height: 30px;
+}
+
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+  left: -30px;
+  height: 0px;
+  width: 0px;
+  font-size: 153px;
+  background: none repeat scroll 0 0 #000000;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 0px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+.carousel-control.left {
+  left: -62px;
+}
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #ffffff;
+}
+.carousel-indicators .active {
+  background: #1b365d;
+}
+
+.topSec2marg{
+	margin-top: 50px;
+}
+
+ figure figcaption { 
+
+margin-top: 30px;
+text-align: center; 
+ }
+ 
+ .subscribeButton {
+	 width:145px;
+	 height:41px;
+	 background-color: gray;
+	 margin-left: 16px;
+ }
+ 
+ .imgResize{
+	 width:162px;
+	 height:132px;
+	 border: 1px solid gray;
+ }
+ 
+.vl {
+  border-left: 3px solid gray;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 2px;
+}
+
+.navLines {
+	border-right:20px;
+	border-right-width:3px;
+}
+.yourCart{
+	color:white;
+	width:109px;
+	height:30px;
+}
+
+.subscribeInput
+{
+	width:275px;
+	height:41px;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 19%;
+    font-size: 204%;
+    color: #FFD600;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+label {
+    display: inline-block;
+    margin-bottom: -0.5rem;
+}
