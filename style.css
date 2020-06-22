@@ -18,7 +18,7 @@ hr.titleOne {
 
 .textLine {
 	 
-	 margin-bottom:50px;
+	 margin-bottom:30px;
 	 margin-top: 120px;
 }
 
@@ -164,3 +164,18 @@ label {
     display: inline-block;
     margin-bottom: -0.5rem;
 }
+
+.heading-section hr{
+	width: 200px;
+	border-top: 2px solid rgba(0,0,0,.1);
+}
+
+.subInput
+{
+	width:413px;
+	height:41px;
+}
+
+
+
+
