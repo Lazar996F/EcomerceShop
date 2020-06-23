@@ -15,11 +15,15 @@ hr.titleOne {
     width: 200px;
 }
 
+img{
+	max-width: 100%;
+}
+
 
 .textLine {
 	 
 	 margin-bottom:30px;
-	 margin-top: 120px;
+	 margin-top: 40px;
 }
 
 .topMarginImg {
@@ -176,6 +180,29 @@ label {
 	height:41px;
 }
 
+.backImage{
+
+  background-image: url("images/mountain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 
+
+.checked {
+  color: orange;
+}
+
+
+hr.addToCartLine {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100px;
+}
+
+input:focus{
+	outline:none;
+}
 
