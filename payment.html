@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cart</title>
+    <title>Payment</title>
 
     <!-- *****************************links*************************** -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -60,7 +60,7 @@
 
 
     <main>
-  <!-- ********STEPPER********** -->
+    <!-- ********STEPPER********** -->
         <section class="container" style="background-color: rgb(223, 223, 223);">
             <div class="row p-5">
                 <div class="col-4">
@@ -75,115 +75,155 @@
             </div><hr>
         </section>
 
-
-     <!-- **********Shopping Cart and Summary******** -->
         <section class="container">
 
             <div class="row">
-                
-        <!-- **col Shopping Cart** -->
-                <div class="col-8">
+                <div class="col-lg-8">
+                                 <!-- **title** -->
                     <div class="d-flex justify-content-start">
-                        <h4>Shopping Cart</h4>
+                        <h4>Payment method</h4>
                     </div><hr>
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row">
-                            <div class="p-2">
-                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
-                            </div>
-                            <div class="p-2">
-                                <div class="d-flex flex-column">
-                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
-                                    <div class="p-0"><div class="row">
-                                        <div class="col-8 text-truncate">
-                                          Praeterea iter est quasdam res quas ex communi.
-                                        </div>
-                                      </div>
-                                      </div>
-                                    <div class="pt-2"><h6>$300</h6></div>
-                                </div>
-                            </div>
-                          </div>
-                          <select class="custom-select rounded-0" style="width:108px; height:41px;">
-                            <option value="1">1 pcs</option>
-                            <option value="2">2 pcs</option>
-                            <option value="3">3 pcs</option>
-                            <option value="3">4 pcs</option>
-                            <option value="3">5 pcs</option>
-                          </select>
-                    </div>
 
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row">
-                            <div class="p-2">
-                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
-                            </div>
-                            <div class="p-2">
-                                <div class="d-flex flex-column">
-                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
-                                    <div class="p-0"><div class="row">
-                                        <div class="col-8 text-truncate">
-                                          Praeterea iter est quasdam res quas ex communi.
-                                        </div>
-                                      </div>
-                                      </div>
-                                    <div class="pt-2"><h6>$300</h6></div>
+                           <!-- ******Credit Card****** -->
+                    <div class="row border p-3">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">
+                                <div class="flex-row align-self-start">
+                                    <h6>Credit Card</h6>
+                                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</small></p>
                                 </div>
+                            </label>
+                            
+                
+                        </div>
+                        
+                        <form >
+                            <div class="row">
+                              <div class="col-lg-8">
+                                <input type="text" class="form-control rounded-0" placeholder="0000 0000 0000 0000 icon">
+                              </div>
+                              <div class="col-lg-2">
+                                <input type="text" class="form-control rounded-0" placeholder="MM/YY">
+                              </div>
+                              <div class="col-lg-2">
+                                <input type="text" class="form-control rounded-0" placeholder="CVV icon">
+                              </div>
+                              <div class="w-100"></div>
+                              <div class="col">
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Card Holder Name">
+                                  </div>
+                              </div>
                             </div>
-                          </div>
-                          <select class="custom-select rounded-0 " style="width:108px; height:41px;">
-                            <option value="1">1 pcs</option>
-                            <option value="2">2 pcs</option>
-                            <option value="3">3 pcs</option>
-                            <option value="3">4 pcs</option>
-                            <option value="3">5 pcs</option>
-                          </select>
+                        </form>
+                          
                     </div><hr>
+                    
+                      <!-- *****PayPal**** -->
+                        <div class="row border p-2 mt-3">
+                                 <div class="custom-control custom-radio ">
+                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <h6>Paypal</h6>
+                                                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</small></p>
+                                            </div>
+                                            <div class="col-4 pt-4 d-flex justify-content-end">
+                                                <a href="https://www.paypal.com/ba/webapps/mpp/account-selection" ><img src="images/paypal.png" class="img-fluid" alt="Responsive image" style="width:122px ; height: 39px;"></a>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </label>
+                                </div>
+                        </div><hr>
+
+
+                        <div class="row">
+                            <button type="button" class="btn btn-secondary rounded-0" style="width:182px; height: 41px;">Pay Now</button>
+                            <button type="button" class="btn btn-secondary ml-2 rounded-0" style="width:182px; height: 41px; background-color: rgb(175, 178, 185);">Cancel</button>
+                        </div>
                 </div>
-            <!-- **col Summary** -->
+                
+                    
+             <!-- ********Summary***** -->
                 <div class="col-4">
-                    <div class="d-flex justify-content-start">
+                    <div class=" d-flex flex-column">
                         <h4>Summary</h4>
                     </div><hr>
                     <div class="d-flex flex-column">
-                        <div class="p-2"><h7>ENTER COUPON CODE</h7><hr></div>
-                        <div class="p-2"></div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>SUBOTAL</h7>
-                                <h7>$600</h7>
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex flex-column">
+                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
+                                    <div class="pt-2"><h6>$300</h6></div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex flex-column">
+                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
+                                    <div class="pt-2"><h6>$300</h6></div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                    </div><hr>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex pt-3">
+                         <h6>HAVE A VOUCHER</h6>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                              .....
                             </div>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>SHIPPING</h7>
-                                <h7>FREE</h7>
-                            </div>
+                    </div><hr>
+                    
+                    <div class="d-flex flex-column">
+                        <div class=" d-flex flex-row justify-content-between pt-2">
+                            <h6>SUBOTAL</h6>
+                            <h6>$600</h6>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>TAXES</h7>
-                                <h7>$13</h7>
-                            </div><hr>
+
+                        <div class="d-flex flex-row justify-content-between pt-2">
+                            <h6>SHIPPING</h6>
+                            <h6>FREE</h6>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h4>TOTAL</h4>
-                                <h4>$613</h4>
-                            </div><hr>
+
+                        <div class="d-flex flex-row justify-content-between pt-2">
+                            <h6>TAXES</h6>
+                            <h6>$13</h6>
                         </div>
-                      </div>
+                    </div><hr>
+
+                    <div class="d-flex justify-content-between">
+                        <h4>TOTAL</h4>
+                        <h4>$613</h4>
+                    </div><hr>
                 </div>
             </div>
-
-
-            <!-- ****buttons NEXT and Cancel***** -->
-            <div class="d-flex justify-content-start">
-                <button type="button" class="btn btn-secondary rounded-0" style="width:182px; height: 41px;">Next</button>
-                <button type="button" class="btn btn-secondary ml-2 rounded-0" style="width:182px; height: 41px; background-color: rgb(175, 178, 185);">Cancel</button>
-            </div>
+            
         </section>
-
+        
+        
     </main>
 
 

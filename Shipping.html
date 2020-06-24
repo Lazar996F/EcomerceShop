@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cart</title>
+    <title>Shipping</title>
 
     <!-- *****************************links*************************** -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -76,114 +76,163 @@
         </section>
 
 
-     <!-- **********Shopping Cart and Summary******** -->
+     <!-- *********Shipping Details******** -->
         <section class="container">
-
             <div class="row">
-                
-        <!-- **col Shopping Cart** -->
+     <!-- ***** sh. details****-->
                 <div class="col-8">
                     <div class="d-flex justify-content-start">
-                        <h4>Shopping Cart</h4>
+                        <h4>Shipping Details</h4>
                     </div><hr>
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row">
-                            <div class="p-2">
-                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
-                            </div>
-                            <div class="p-2">
-                                <div class="d-flex flex-column">
-                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
-                                    <div class="p-0"><div class="row">
-                                        <div class="col-8 text-truncate">
-                                          Praeterea iter est quasdam res quas ex communi.
-                                        </div>
-                                      </div>
-                                      </div>
-                                    <div class="pt-2"><h6>$300</h6></div>
-                                </div>
-                            </div>
+                    <form>
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" class="form-control rounded-0" placeholder="First name">
                           </div>
-                          <select class="custom-select rounded-0" style="width:108px; height:41px;">
-                            <option value="1">1 pcs</option>
-                            <option value="2">2 pcs</option>
-                            <option value="3">3 pcs</option>
-                            <option value="3">4 pcs</option>
-                            <option value="3">5 pcs</option>
-                          </select>
+                          <div class="col">
+                            <input type="text" class="form-control rounded-0" placeholder="Last name">
+                          </div>
+                        </div>
+                      </form>
+                      <div class="form-group mt-3">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                      </div>
+
+
+                      
+
+                     <div class="form-row">
+                            <div class="form-group col-lg-6">
+                                <select id="inputState" class="form-control">
+                                  <option selected>Country</option>
+                                  <option>Bosnia and Herzegovina</option>
+                                  <option>Serbia</option>
+                                  <option>Croatia</option>
+                                </select>
+                             </div>
+                              <div class="form-group col-lg-6 ">
+                                <input type="text" class="form-control" id="inputZip" placeholder="City">
+                              </div>
                     </div>
 
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row">
-                            <div class="p-2">
-                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
-                            </div>
-                            <div class="p-2">
-                                <div class="d-flex flex-column">
-                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
-                                    <div class="p-0"><div class="row">
-                                        <div class="col-8 text-truncate">
-                                          Praeterea iter est quasdam res quas ex communi.
-                                        </div>
-                                      </div>
-                                      </div>
-                                    <div class="pt-2"><h6>$300</h6></div>
-                                </div>
-                            </div>
+                    <form>
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Zip/Postal Code">
                           </div>
-                          <select class="custom-select rounded-0 " style="width:108px; height:41px;">
-                            <option value="1">1 pcs</option>
-                            <option value="2">2 pcs</option>
-                            <option value="3">3 pcs</option>
-                            <option value="3">4 pcs</option>
-                            <option value="3">5 pcs</option>
-                          </select>
-                    </div><hr>
-                </div>
-            <!-- **col Summary** -->
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                          </div>
+                        </div>
+                      </form><hr>
+
+                      <div class="form-row">
+                          <div class="col-lg-6 border">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input ">
+                                <label class="custom-control-label" for="customRadio1">
+                                    <h5 class="card-title">Free Shipping</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Between 2-5 working days</h6>
+                                </label>
+                              </div>
+                          </div>
+
+                          <div class="col-lg-6 border">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">
+                                    <h5 class="card-title">Next Day Delivery- $20</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">24 hours from checkout</h6>
+                                </label>
+                              </div>
+                        </div>
+
+                      </div><hr>
+
+                      </div>
+                      
+             <!-- ****Summary*****  -->
                 <div class="col-4">
-                    <div class="d-flex justify-content-start">
+                    <div class=" d-flex flex-column">
                         <h4>Summary</h4>
                     </div><hr>
                     <div class="d-flex flex-column">
-                        <div class="p-2"><h7>ENTER COUPON CODE</h7><hr></div>
-                        <div class="p-2"></div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>SUBOTAL</h7>
-                                <h7>$600</h7>
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex flex-column">
+                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
+                                    <div class="pt-2"><h6>$300</h6></div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                                <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex flex-column">
+                                    <div class="p-0"><h6>PRODUCT NAME</h6></div>
+                                    <div class="pt-2"><h6>$300</h6></div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                    </div><hr>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex pt-3">
+                         <h6>HAVE A VOUCHER</h6>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                              .....
                             </div>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>SHIPPING</h7>
-                                <h7>FREE</h7>
-                            </div>
+                    </div><hr>
+                    
+                    <div class="d-flex flex-column">
+                        <div class=" d-flex flex-row justify-content-between pt-2">
+                            <h6>SUBOTAL</h6>
+                            <h6>$600</h6>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h7>TAXES</h7>
-                                <h7>$13</h7>
-                            </div><hr>
+
+                        <div class="d-flex flex-row justify-content-between pt-2">
+                            <h6>SHIPPING</h6>
+                            <h6>FREE</h6>
                         </div>
-                        <div class="p-2">
-                            <div class="d-flex justify-content-between">
-                                <h4>TOTAL</h4>
-                                <h4>$613</h4>
-                            </div><hr>
+
+                        <div class="d-flex flex-row justify-content-between pt-2">
+                            <h6>TAXES</h6>
+                            <h6>$13</h6>
                         </div>
-                      </div>
+                    </div><hr>
+
+                    <div class="d-flex justify-content-between">
+                        <h4>TOTAL</h4>
+                        <h4>$613</h4>
+                    </div><hr>
+                </div>
+
+
+                <div class="d-flex justify-content-start p-2">
+                    <button type="button" class="btn btn-secondary rounded-0" style="width:182px; height: 41px;">Next</button>
+                    <button type="button" class="btn btn-secondary ml-2 rounded-0" style="width:182px; height: 41px; background-color: rgb(175, 178, 185);">Cancel</button>
                 </div>
             </div>
-
-
-            <!-- ****buttons NEXT and Cancel***** -->
-            <div class="d-flex justify-content-start">
-                <button type="button" class="btn btn-secondary rounded-0" style="width:182px; height: 41px;">Next</button>
-                <button type="button" class="btn btn-secondary ml-2 rounded-0" style="width:182px; height: 41px; background-color: rgb(175, 178, 185);">Cancel</button>
-            </div>
         </section>
-
     </main>
 
 

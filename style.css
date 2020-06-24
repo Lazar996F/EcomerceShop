@@ -182,7 +182,7 @@ label {
 
 .backImage{
 
-  background-image: url("images/mountain.jpg");
+  background-image: url("images/imgImg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,7 +192,7 @@ label {
 
 
 .checked {
-  color: orange;
+    color: #606060;
 }
 
 
@@ -205,4 +205,3 @@ hr.addToCartLine {
 input:focus{
 	outline:none;
 }
-
