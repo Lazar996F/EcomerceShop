@@ -205,3 +205,36 @@ hr.addToCartLine {
 input:focus{
 	outline:none;
 }
+
+.sp-border-right {
+  border-right: 2px solid #dee2e6!important;
+ 
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.inputImage{
+  background-image: url('images/search.png');
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+.arrow-left {
+  border-top: 24px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 17px solid#737373;
+}
+
+.arrow-right {
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 17px solid #737373;
+}
+
+.harrisonBorderTop{
+  width: 100px;
+}
