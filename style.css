@@ -6,10 +6,18 @@
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 }
+.h3, h3 {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
 .h6, h6 {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
+.h5, h5 {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
 hr.titleOne {
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
@@ -263,3 +271,35 @@ input:focus{
   border-bottom:2px solid black ;
 }
 
+ .nav-tabs .nav-link.active {
+  color: #000;
+  background-color: transparent!important;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #606060!important;
+  font-weight: bold;
+  
+}
+
+.letter-spacing-0 {
+  letter-spacing: 0;
+}
+
+.font-sans{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.font-source-sans {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+
+.borderBottom {
+  border-bottom: 2px solid #dee2e66b!important;
+}
+
+.input-borders {
+  border: 2px solid #6d6d6d94!important;
+}
