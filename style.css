@@ -41,7 +41,7 @@ img{
 	
 	width: 182px;
 	height: 42px;
-	margin-bottom:80px;
+  margin-bottom:80px;
 }
 
 .inpWidth {
@@ -102,13 +102,9 @@ text-align: center;
  .subscribeButton {
 	 width:145px;
 	 height:41px;
-	 background-color: gray;
 	 margin-left: 16px;
  }
  
- .imgResize{
-  width: 100%;
- }
  
 .vl {
   border-left: 3px solid gray;
@@ -132,7 +128,8 @@ text-align: center;
 .subscribeInput
 {
 	width:275px;
-	height:41px;
+  height:41px;
+  border:1px solid rgb(155, 154, 154);
 }
 .rating {
     display: flex;
@@ -198,7 +195,7 @@ label {
 
 
 .checked {
-    color: #606060;
+    color: #d2d2d2;
 }
 
 
@@ -320,4 +317,20 @@ input:focus{
 .latoFont{
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
+}
+
+.carousel-border{
+
+  border: 1px groove #f3eded!important;
+}
+
+.padding-left7{
+
+  padding-left: 6rem!important;
+}
+
+.text-edit{
+  line-height: 1.8;
+  padding-right: 10rem!important;
+  padding-left: 10rem!important;
 }
