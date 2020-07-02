@@ -274,8 +274,11 @@ input:focus{
   border-left: 0;
   border-right: 0;
   border-bottom: 2px solid #606060!important;
-  font-weight: bold;
   
+}
+
+.nav-tabs .nav-link.active h5 {
+  font-weight: bold;
 }
 
 .letter-spacing-0 {
@@ -320,7 +323,6 @@ input:focus{
 }
 
 .carousel-border{
-
   border: 1px groove #f3eded!important;
 }
 
@@ -334,3 +336,22 @@ input:focus{
   padding-right: 10rem!important;
   padding-left: 10rem!important;
 }
+
+hr.short-line {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+
+
+.select-bg{
+  background-image: url("images/select.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+

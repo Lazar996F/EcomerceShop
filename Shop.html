@@ -3,7 +3,7 @@
 <head>
 <title>Shop</title>
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- *****************************links*************************** -->
 <link rel="stylesheet" type="text/css" href="style.css">
 <!-- *****bootstrap link**** -->
@@ -36,21 +36,22 @@
                 <div class="col-lg-6">
                     <nav>
                         <ul class="nav justify-content-end">
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Home.html">Home</a>
                             </li>
-                            <li class="nav-item my-auto">
-                                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="#">About</a>
+                            <li class="nav-item my-auto pr-3">
+                                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right " href="Product.html">About</a>
                             </li>
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Shop.html">Shop</a>
                             </li>
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 " href="#">Help</a>
                             </li>
-                            <li class="nav-item my-auto">
-                                <a type="button" class="nav-link btn-secondary mt-1" style="color:white"><i
-                                    class="fa fa-shopping-cart" aria-hidden="true"></i> Your Cart </a>
+                            <li class="nav-item">
+                                <a type="button" href="CartShippingPayment.html" class="nav-link btn-secondary mt-1"
+                                    style="color:white"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Your Cart
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -67,17 +68,17 @@
         <section class="container heading-section">
 
             <div class="d-flex justify-content-center textLine">
-                <h1>Tagline describing your e-shop</h1>
+                <h1 class="text-secondary">Tagline describing your e-shop</h1>
                 
             </div><hr>
 
             
 
             <div class="d-flex justify-content-center textLine ">
-                <div class="input-group-prepend border">
+                <div class="input-group-prepend input-borders border-right-0">
                     <button class="btn btn-outline-secondary border-0" type="button" id="button-addon1"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
-                    <input type="text" class="border border-left-0" placeholder="  Search..." style="width: 428px; height: 54px;">
+                    <input type="text" class="input-borders border-left-0" placeholder="  Search..." style="width: 428px; height: 54px;">
                     <button type="button" class="btn btn-secondary rounded-0 ml-2" style="width: 158px; height: 54px;">Submit</button>
             </div>
             
@@ -91,41 +92,42 @@
             <div class="d-flex justify-content-center textLine">
 
                 <div class="col text-center pt-3">
-                    <h1>Featured Categories</h1>
-                    <div class="mt-3"><h6>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</h6></div>
+                    <h1 class="text-secondary">Featured Categories</h1>
+                    <div class="mt-3"  style="color:rgb(145, 143, 144);"><h6>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</h6></div>
                 </div>
             </div>
     
 
             <div class="row p-5">
-                <div class="col-3">
+
+                <div class="col-lg-3 col-6">
                     <div class="card border-0" style="width: 144px;">
-                        <img src="images/imgImg.png" class="card-img-top border" alt="Parrot" style="height: 196px;">
+                        <img src="images/imgHeigh.png" class="card-img-top input-borders" alt="Parrot" style="height: 196px;">
                         <div class="card-body ">
                           <h6 class="card-text">CATEGORY</h6>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="card border-0" style="width: 144px; ">
-                        <img src="images/imgImg.png" class="card-img-top border" alt="Parrot" style="height: 196px;">
+                        <img src="images/imgHeigh.png" class="card-img-top input-borders" alt="Parrot" style="height: 196px;">
                         <div class="card-body">
                           <h6 class="card-text">CATEGORY</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="card border-0" style="width: 144px;">
-                        <img src="images/imgImg.png" class="card-img-top border" alt="Parrot" style="height: 196px;">
+                        <img src="images/imgHeigh.png" class="card-img-top input-borders" alt="Parrot" style="height: 196px;">
                         <div class="card-body">
                           <h6 class="card-text">CATEGORY</h6>
                         </div>
                     </div>
                 </div>
         <!-- ****BUTTON==> Shop Now **** -->
-                <div class="col-3">
-                    <button type="button" class="btn btn-secondary" style="width: 145px; height: 196px;">Shop Now</button>
+                <div class="col-lg-3 col-6">
+                    <button type="button" class="btn btn-secondary" style="width: 145px; height: 196px; border-radius: 1%;">Shop Now</button>
                 </div>
             </div><hr class="mb-0">
 
@@ -139,11 +141,11 @@
                 <div class="col-lg-4 border p-0">
                     <img src="images/imgImg.png" class="rounded-0  float-left" alt="Image.png">
                 </div>
-                <div class="col-lg-8 border pt-4 px-5">
-                    <div class="d-flex justify-content-start pt-4 ">
-                        <h1>Newsletter</h1>
-                    </div>
 
+                <div class="col-lg-8 border pt-4 ">
+                    <div class="d-flex justify-content-start pt-4 ">
+                        <h1 class="text-secondary">Newsletter</h1>
+                    </div>
                     <!-- **INPUT- subscribe*** -->
                     <div class="input-group">
                         <input type="text" class=" subInput pl-4" placeholder="Email Address">
@@ -151,8 +153,6 @@
                                   <button class="btn btn-outline-secondary rounded-0 subscribeButton border-0"  type="button" id="button-addon2" style=" background-color:#d6d6d6;">Subscribe</button>
                             </div>
                     </div>
-
-                    
                 </div>
             </div>
         </section>
@@ -162,20 +162,20 @@
             <div class="row ">
                 <div class="col-lg-4 border">
                     <div class="col pt-5">
-                        <h1>Header Regarding Your Product</h1>
-                        <div class="mt-3"><h6>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</h6></div>
+                        <h1 class="text-secondary">Header Regarding Your Product</h1>
+                        <div class="mt-3"><h6 style="color:rgb(145, 143, 144);">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</h6></div>
                         <a href="#" class="btn btn-secondary btn-lg active float-left rounded-0 mt-4 pt-1" role="button" aria-pressed="true" style="width:145px; height: 41px;">Browse All</a>
                     </div>
 
                 </div>
-                <div class="col-lg-8 pt-5 border">
+                <div class="col-lg-8 pt-5 border pb-4">
 
                     <div class="row">
                         <div class="col-lg-6">
 
                             <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class="input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">
@@ -196,7 +196,7 @@
 
                               <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class=" input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">
@@ -217,7 +217,7 @@
 
                               <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class="input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">
@@ -240,7 +240,7 @@
                         <div class="col-lg-6">
                             <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class="input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">
@@ -260,7 +260,7 @@
                               </div>
                               <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class=" input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">
@@ -281,7 +281,7 @@
 
                               <div class="d-flex flex-row">
                                 <div class="p-2">
-                                    <img src="images/imgImg.png" class=" border float-left" alt="Image.png" style="width:111px; height: 84px;">
+                                    <img src="images/imgImg.png" class="input-borders float-left" alt="Image.png" style="width:111px; height: 84px;">
                                 </div>
                                 <div class="p-2">
                                     <div class="d-flex flex-column">

@@ -4,6 +4,7 @@
 <head>
     <title>CartShippingPayment</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- *****************************links*************************** -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- *****bootstrap link**** -->
@@ -31,8 +32,6 @@
 
     <header>
         <div class="container">
-
-
             <div class="row pt-2 pl-4">
 
                 <div class="col-lg-6">
@@ -44,21 +43,22 @@
                 <div class="col-lg-6">
                     <nav>
                         <ul class="nav justify-content-end">
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Home.html">Home</a>
                             </li>
-                            <li class="nav-item my-auto">
-                                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="#">About</a>
+                            <li class="nav-item my-auto pr-3">
+                                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right " href="Product.html">About</a>
                             </li>
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Shop.html">Shop</a>
                             </li>
-                            <li class="nav-item my-auto">
+                            <li class="nav-item my-auto pr-3">
                                 <a class="nav-link text-secondary pt-0 pb-0 " href="#">Help</a>
                             </li>
-                            <li class="nav-item my-auto">
-                                <a type="text" href="#" class="nav-link btn-secondary mt-1" style="color:white"><i
-                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Your Cart </a>
+                            <li class="nav-item">
+                                <a type="button" href="CartShippingPayment.html" class="nav-link btn-secondary mt-1"
+                                    style="color:white"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Your Cart
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -75,18 +75,18 @@
     <!-- ********STEPPER********** -->
     <section class="container pt-5 bg-light " style="height:200px;">
         <nav>
-            <div class="nav nav-tabs d-flex justify-content-around" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link  text-muted active bg-light border-bottom" id="nav-home-tab"
+            <div class="nav nav-tabs d-flex justify-content-around text-secondary" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link  active bg-light border-bottom text-secondary" id="nav-home-tab"
                     data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
-                    <h5 class="latoFont">1. Shopping Cart</h5>
+                    <h5>1. Shopping Cart</h5>
                 </a>
-                <a class="nav-item nav-link  text-muted  bg-light border-bottom" id="nav-profile-tab" data-toggle="tab"
+                <a class="nav-item nav-link   bg-light border-bottom text-secondary" id="nav-profile-tab" data-toggle="tab"
                     href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
-                    <h5 class="latoFont">2. Shipping Details</h5>
+                    <h5 >2. Shipping Details</h5>
                 </a>
-                <a class="nav-item nav-link text-muted bg-light border-bottom" id="nav-contact-tab" data-toggle="tab"
+                <a class="nav-item nav-link bg-light border-bottom text-secondary" id="nav-contact-tab" data-toggle="tab"
                     href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
-                    <h5 class="latoFont">3. Payment Options</h5>
+                    <h5>3. Payment Options</h5>
                 </a>
             </div>
         </nav>
@@ -102,18 +102,19 @@
             <!-- ****SHOPPING CART***** -->
             <div class="tab-pane fade show active mt-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <div class="row mb-3">
-                    <div class="col-lg-8 col-sm-12 pl-5">
-                        <div class="d-flex justify-content-start pl-2 borderBottom mb-4">
-                            <h3>Shopping Cart</h3>
+
+                    <div class="col-lg-8 col-12 pl-5">
+                        <div class="d-flex justify-content-start  borderBottom mb-4">
+                            <h3 class="text-secondary">Shopping Cart</h3>
                         </div>
 
 
                         <div class="row mb-4">
-                            <div class="col-lg-10">
+                            <div class="col-10">
                                 <div class="row">
                                     <div class="col-4">
-                                        <img src="images/imgImg.png" class="rounded float-left input-borders"
-                                            alt="Image.png">
+                                        <img src="images/imgImg.png" class="float-left input-borders"
+                                            alt="Image.png" style="border-radius: 0.15rem;">
                                     </div>
                                     <div class="col-8">
                                         <div class="d-flex flex-column">
@@ -130,9 +131,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-2 pt-4">
+                            <div class="col-2 pt-5">
                                 <div class="align-self-end">
-                                    <select class="custom-select input-borders" style=" height:41px;">
+                                    <select class="custom-select input-borders select-bg" style="height:41px;">
                                         <option value="1">1 pcs</option>
                                         <option value="2">2 pcs</option>
                                         <option value="3">3 pcs</option>
@@ -142,14 +143,12 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="row">
-                            <div class="col-lg-10">
+                            <div class="col-10">
                                 <div class="row">
                                     <div class="col-4">
                                         <img src="images/imgImg.png" class="rounded float-left  input-borders"
-                                            alt="Image.png">
+                                            alt="Image.png" style="border-radius: 0.15rem;">
                                     </div>
                                     <div class="col-8">
                                         <div class="d-flex flex-column">
@@ -166,7 +165,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-2 pt-4">
+                            <div class="col-2 pt-4">
                                 <div class="align-self-end">
                                     <select class="custom-select input-borders" style=" height:41px;">
                                         <option value="1">1 pcs</option>
@@ -181,9 +180,9 @@
                         <hr class="borderBottom">
                     </div>
 
-                    <div class="col-lg-4 col-sm-12">
+                    <div class="col-lg-4 col-12">
                         <div class="d-flex justify-content-start pl-2 borderBottom">
-                            <h3>Summary</h3>
+                            <h3 class="text-secondary">Summary</h3>
                         </div>
                         <div class="d-flex flex-column mt-2">
                             <div class="p-2 borderBottom">
@@ -221,11 +220,9 @@
                 </div>
 
                 <div class="row pl-5">
-                    <div class="d-flex justify-content-start pl-2 tab-content">
-
-
+                    <div class="d-flex justify-content-start  tab-content">
                         <a type="button" class=" btn btn-secondary rounded-0"
-                            style="width:182px; height: 41px;">Next</a>
+                            style="width:182px; height: 41px;" onclick="next('nav-profile-tab');">Next</a>
                         <button type="button" class="btn btn-secondary ml-2 rounded-0 bg-light border-0 text-dark"
                             style="width:182px; height: 41px;">Cancel</button>
                     </div>
@@ -239,7 +236,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-sm-12 ">
                         <div class="d-flex justify-content-start borderBottom mb-4">
-                            <h3>Shipping Details</h3>
+                            <h3 class="text-secondary" style="letter-spacing: 1px;">Shipping Details</h3>
                         </div>
 
                         <!-- ***First and Last Name**** -->
@@ -311,11 +308,11 @@
 
 
                         <!-- ***Checkbox***-->
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between ">
 
 
                             <label
-                                class="custom-control d-inline-flex custom-radio custom-control-inline border align-items-center py-4 px-5  mr-0 border w-100 mr-4"
+                                class="custom-control d-inline-flex custom-radio custom-control-inline input-borders align-items-center py-4 px-5  mr-0 border w-100 mr-4"
                                 style="background-color: rgba(185, 184, 184, 0.473);">
 
                                 <div>
@@ -333,10 +330,10 @@
                             </label>
 
                             <label
-                                class="custom-control d-inline-flex custom-radio custom-control-inline border align-items-center py-4 px-5  mr-0 w-100 ">
+                                class="custom-control d-inline-flex custom-radio custom-control-inline input-borders align-items-center py-4 px-5  mr-0 w-100 ">
                                 <div>
                                     <input type="radio" id="customRadioInline2" name="customRadioInline1"
-                                        class="custom-control-input d-none ">
+                                        class="custom-control-input d-none">
 
 
                                     <label class="custom-control-label my-auto" for="customRadioInline2"></label>
@@ -355,7 +352,7 @@
 
                         <div class="d-flex justify-content-start p-2">
                             <button type="button" class="btn btn-secondary rounded-0"
-                                style="width:182px; height: 41px;">Next</button>
+                                style="width:182px; height: 41px;"  onclick="next('nav-contact-tab');">Next</button>
                             <button type="button" class="btn btn-secondary ml-2 rounded-0"
                                 style="width:182px; height: 41px; background-color: rgb(175, 178, 185);">Cancel</button>
                         </div>
@@ -364,7 +361,7 @@
 
                     <div class="col-lg-4 col-sm-12">
                         <div class=" d-flex flex-column borderBottom mb-3">
-                            <h3>Summary</h3>
+                            <h3  class="text-secondary" style="letter-spacing: 1px;">Summary</h3>
                         </div>
                         <div class="d-flex flex-column mb-3">
                             <div class="d-flex flex-row">
@@ -423,6 +420,7 @@
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
                         </div>
+
                         <div class="d-flex flex-column pl-3">
                             <div class="d-flex flex-row justify-content-between pt-2 ">
                                 <h6>SUBOTAL</h6>
@@ -446,7 +444,6 @@
                             <h4 class="text-muted">$613</h4>
                         </div>
                         <hr>
-
                     </div>
                     <hr>
 
@@ -468,7 +465,7 @@
 
 
                         <div class="d-flex justify-content-start pl-2 borderBottom mb-4">
-                            <h3>Payment method</h3>
+                            <h3 class="text-secondary" style="letter-spacing: 1px;">Payment method</h3>
                         </div>
 
 
@@ -493,7 +490,7 @@
                                 <form>
                                     <div class="row">
                                         <div class="col-7">
-                                            <input type="text" class="form-control rounded-0 bgCard" placeholder="">
+                                            <input type="text" class="form-control rounded-0 bgCard" placeholder=" 0000  0000  0000  0000">
                                         </div>
                                         <div class="col-5">
 
@@ -525,10 +522,6 @@
                                                 </div>
 
                                             </div>
-
-
-
-
 
                                         </div>
 
@@ -587,7 +580,7 @@
 
                     <div class="col-4">
                         <div class=" d-flex flex-column borderBottom mb-4">
-                            <h3>Summary</h3>
+                            <h3  class="text-secondary" style="letter-spacing: 1px;">Summary</h3>
                         </div>
 
                         <div class="borderBottom">
@@ -692,7 +685,7 @@
 
 
 
-
+        <div class="row" style="margin-bottom:9rem;"></div>
     <!-- ***FOOTER**** -->
     <footer class="mt-5 ">
         <ul class="nav justify-content-center mb-2">
@@ -700,7 +693,7 @@
                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Home.html">Home</a>
             </li>
             <li class="nav-item my-auto">
-                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="#">About</a>
+                <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Product.html">About</a>
             </li>
             <li class="nav-item my-auto">
                 <a class="nav-link text-secondary pt-0 pb-0 sp-border-right" href="Shop.html">Shop</a>
@@ -721,6 +714,12 @@
     </footer>
 
 
+
+    <script>
+        function next(id) {
+            document.getElementById(id).click();
+        }
+    </script>
     <script src="https://use.fontawesome.com/ecb89f1714.js"></script>
 
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
@@ -734,6 +733,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+       
 </body>
 
 </html>
