@@ -132,10 +132,10 @@ text-align: center;
 
 .subscribeInput
 {
-	width:275px;
   height:41px;
   border:1px solid rgb(155, 154, 154);
 }
+
 .rating {
     display: flex;
     flex-direction: row-reverse;
@@ -206,7 +206,7 @@ label {
 
 hr.addToCartLine {
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(102, 102, 104, 0.651);
     width: 100px;
 }
 
@@ -215,7 +215,7 @@ input:focus{
 }
 
 .sp-border-right {
-  border-right: 2px solid #dee2e6!important;
+  border-right: 2px solid #c7c7c7!important;
  
 }
 
@@ -401,4 +401,15 @@ letter-spacing: 0;
 
 .line-height{
     line-height: 15px;
+}
+
+@media (min-width: 768px) {  
+  .subscribeInput
+  {
+    width:275px;
+    height:41px;
+    border:1px solid rgb(155, 154, 154);
+  }
+
+
 }
