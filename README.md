@@ -1,2 +1,2 @@
 # EcomerceShop
-Task for bootstrap4 learning
+This simple project was used for hard learning html and bootstrap
