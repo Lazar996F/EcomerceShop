@@ -1,2 +1,2 @@
 # EcomerceShop
-This simple project was used for hard learning html and bootstrap
+This simple project is used for deep html and bootstrap learning 
